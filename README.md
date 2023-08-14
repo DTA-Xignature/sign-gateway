@@ -27,10 +27,14 @@ To run this project, you will need to add the following environment variables
 ```bash
   docker run -d --name sign-gateway \
   -p 1303:1303 \
+  -e API_URL={{API_URL}} \
   -e API_KEY=your-api-key \
   registry.xignature.co.id/xignature/public-sign-gateway
 ```
 
+{{API_UR}}
+- SANDBOX = https://sandbox.xignature.co.id
+- PRODUCTION = https://api.xignature.co.id
 
 ## HTTP API Reference
 
