@@ -13,6 +13,8 @@ This gateway running on Docker for sign your document from your premise using PA
 To run this project, you will need to add the following environment variables
 
 `API_KEY`
+`API_URL`
+
 ## Running Docker Container
 
 
